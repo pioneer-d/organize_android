@@ -13,6 +13,7 @@ class Lifecycle_activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_lifecycle)
+        Log.d(thisName,"onCreate()")
     }
 
     // step_2
